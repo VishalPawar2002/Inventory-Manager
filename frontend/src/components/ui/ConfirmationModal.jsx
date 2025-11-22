@@ -14,7 +14,7 @@ const ConfirmationModal = ({
 }) => {
   return (
     <Modal isOpen={isOpen} onRequestClose={onRequestClose} title={title} >
-      <div className="d-flex align-items-start mb-3 "style={{ backgroundColor: "#f8f9fa" }}>
+      <div className="d-flex align-items-start mb-3 ">
         <div className="flex-shrink-0 me-3 ">
           <div className="icon-circle bg-danger-soft">
             <FiAlertTriangle className="h4 mb-0" aria-hidden="true" />
